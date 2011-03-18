@@ -3,7 +3,7 @@
 %define repo fixes
 
 Name:           russianfedora-%{repo}-release
-Version:        14
+Version:        15
 Release:        1
 Summary:        Russian Fedora (%{repo}) Repository Configuration
 
@@ -98,6 +98,9 @@ fi
 
 
 %changelog
+* Fri Mar 18 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 15-1
+- update to RFRemix 15
+
 * Thu Oct 14 2010 Arkady L. Shane <ashejn@yandex-team.ru> - 14-1
 - stable release
 
