@@ -1,23 +1,23 @@
 [russianfedora-fixes-updates-testing]
-name=Russian Fedora for Fedora $releasever - Fixes - Test Updates
-#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/fixes/fedora/updates/testing/$releasever/$basearch
-mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=fixes-fedora-updates-testing-$releasever&arch=$basearch
+name=Russian Fedora for EL $releasever - Fixes - Test Updates
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/fixes/el/updates/testing/$releasever/$basearch
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=fixes-reremix-updates-testing-$releasever&arch=$basearch
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-fixes-fedora
 
 [russianfedora-fixes-updates-testing-debuginfo]
-name=Russian Fedora for Fedora $releasever - Fixes - Test Updates Debug
-#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/fixes/fedora/updates/testing/$releasever/$basearch/debug
-mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=fixes-fedora-updates-testing-debug-$releasever&arch=$basearch
+name=Russian Fedora for EL $releasever - Fixes - Test Updates Debug
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/fixes/el/updates/testing/$releasever/$basearch/debug
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=fixes-reremix-updates-testing-debug-$releasever&arch=$basearch
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-fixes-fedora
 
 [russianfedora-fixes-updates-testing-source]
-name=Russian Fedora for Fedora $releasever - Fixes - Test Updates Source
-#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/fixes/fedora/updates/testing/$releasever/SRPMS
-mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=fixes-fedora-updates-testing-source-$releasever&arch=$basearch
+name=Russian Fedora for EL $releasever - Fixes - Test Updates Source
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/fixes/el/updates/testing/$releasever/SRPMS
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=fixes-reremix-updates-testing-source-$releasever&arch=$basearch
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-fixes-fedora

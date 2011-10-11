@@ -1,23 +1,23 @@
 [russianfedora-fixes]
-name=Russian Fedora for Fedora $releasever - Fixes
-#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/fixes/fedora/releases/$releasever/Everything/$basearch/os
-mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=fixes-fedora-$releasever&arch=$basearch
+name=Russian Fedora for EL $releasever - Fixes
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/fixes/el/releases/$releasever/Everything/$basearch/os
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=fixes-reremix-$releasever&arch=$basearch
 enabled=1
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-fixes-fedora
 
 [russianfedora-fixes-debuginfo]
-name=Russian Fedora for Fedora $releasever - Fixes - Debug
-#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/fixes/fedora/releases/$releasever/Everything/$basearch/debug
-mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=fixes-fedora-debug-$releasever&arch=$basearch
+name=Russian Fedora for EL $releasever - Fixes - Debug
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/fixes/el/releases/$releasever/Everything/$basearch/debug
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=fixes-reremix-debug-$releasever&arch=$basearch
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-fixes-fedora
 
 [russianfedora-fixes-source]
-name=Russian Fedora for Fedora $releasever - Fixes - Source
-#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/fixes/fedora/releases/$releasever/Everything/source/SRPMS
-mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=fixes-fedora-source-$releasever&arch=$basearch
+name=Russian Fedora for EL $releasever - Fixes - Source
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/fixes/el/releases/$releasever/Everything/source/SRPMS
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=fixes-reremix-source-$releasever&arch=$basearch
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-fixes-fedora
