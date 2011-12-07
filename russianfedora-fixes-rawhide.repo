@@ -2,7 +2,7 @@
 name=Russian Fedora for Fedora Rawhide - Fixes
 #baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/fixes/fedora/development/rawhide/$basearch/os/
 mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=fixes-fedora-rawhide&arch=$basearch
-enabled=0
+enabled=1
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-fixes-fedora
 
