@@ -2,6 +2,7 @@
 name=Russian Fedora for EL $releasever - Fixes - Updates
 #baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/fixes/el/updates/$releasever/$basearch
 mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=fixes-reremix-updates-released-$releasever&arch=$basearch
+exclude=reremix*
 enabled=1
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-fixes-fedora

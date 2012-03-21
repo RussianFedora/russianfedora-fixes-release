@@ -4,7 +4,7 @@
 
 Name:           russianfedora-%{repo}-release
 Version:        6
-Release:        2.R
+Release:        3.R
 Summary:        Russian Fedora (%{repo}) Repository Configuration
 
 Group:          System Environment/Base
@@ -97,6 +97,9 @@ fi
 
 
 %changelog
+* Wed Mar 21 2012 Arkady L. Shane <ashejn@yandex-team.ru> - 6-3.R
+- exclude reremix* packages to avoid upgrade release packages
+
 * Wed Feb 22 2012 Arkady L. Shane <ashejn@yandex-team.ru> - 6-2.R
 - R: redhat-release, CentOS does not provide system-release
 
