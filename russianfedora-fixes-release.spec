@@ -4,7 +4,7 @@
 
 Name:           russianfedora-%{repo}-release
 Version:        6
-Release:        3.R
+Release:        4.R
 Summary:        Russian Fedora (%{repo}) Repository Configuration
 
 Group:          System Environment/Base
@@ -97,6 +97,9 @@ fi
 
 
 %changelog
+* Thu Mar 22 2012 Arkady L. Shane <ashejn@yandex-team.ru> - 6-4.R
+- do not exclude reremix* packages again
+
 * Wed Mar 21 2012 Arkady L. Shane <ashejn@yandex-team.ru> - 6-3.R
 - exclude reremix* packages to avoid upgrade release packages
 
