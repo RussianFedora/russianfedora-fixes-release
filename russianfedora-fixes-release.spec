@@ -3,7 +3,7 @@
 %define repo fixes
 
 Name:           russianfedora-%{repo}-release
-Version:        18
+Version:        19
 Release:        1.R
 Summary:        Russian Fedora (%{repo}) Repository Configuration
 
@@ -98,6 +98,9 @@ fi
 
 
 %changelog
+* Fri Mar 29 2013 Arkady L. Shane <ashejn@yandex-team.ru> - 19-1.R
+- update to RFRemix 19
+
 * Wed Oct  2 2012 Arkady L. Shane <ashejn@yandex-team.ru> - 18-1.R
 - update to RFRemix 18
 
