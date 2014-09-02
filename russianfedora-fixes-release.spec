@@ -3,7 +3,7 @@
 %define repo fixes
 
 Name:           russianfedora-%{repo}-release
-Version:        20
+Version:        21
 Release:        1.R
 Summary:        Russian Fedora (%{repo}) Repository Configuration
 
@@ -98,6 +98,9 @@ fi
 
 
 %changelog
+* Tue Sep  2 2014 Arkady L. Shane <ashejn@russianfedora.ru> - 21-1.R
+- update to RFRemix 21
+
 * Fri Oct  4 2013 Arkady L. Shane <ashejn@yandex-team.ru> - 20-1.R
 - update to RFRemix 20
 
