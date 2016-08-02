@@ -3,7 +3,7 @@
 %define repo fixes
 
 Name:           russianfedora-%{repo}-release
-Version:        25
+Version:        26
 Release:        0.1.R
 Summary:        Russian Fedora (%{repo}) Repository Configuration
 
@@ -98,6 +98,9 @@ fi
 
 
 %changelog
+* Tue Aug  2 2016 Arkady L. Shane <ashejn@russianfedora.ru> - 26-0.1
+- update for new Rawhide
+
 * Mon Feb 29 2016 Arkady L. Shane <ashejn@russianfedora.ru> - 25-0.1.R
 - update for new Rawhide
 
