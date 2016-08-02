@@ -4,7 +4,7 @@
 
 Name:           russianfedora-%{repo}-release
 Version:        26
-Release:        0.1.R
+Release:        0.1
 Summary:        Russian Fedora (%{repo}) Repository Configuration
 
 Group:          System Environment/Base
